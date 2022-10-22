@@ -2,9 +2,9 @@
 /**
  * main - to print the size of types
  *
- * Return: 0
+ * Return: zero if no error found
  */
-	int main()
+	int main(void)
 {
 	char a;
 	int b;
