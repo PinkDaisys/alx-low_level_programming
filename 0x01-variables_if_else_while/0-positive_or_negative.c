@@ -1,4 +1,6 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - starting point
@@ -7,14 +9,19 @@
  */
 	int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	int n;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		_putchar(str[count]);
+		printf("%d is positive\n",n);
 	}
-	_putchar("\n");
+	else if (n < 0)
+	{
+		printf("%d is negative\n",n);
+	}
+	else if (n==0)
+		printf("%d is zero\n", n);
 	return (0);
 }
