@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - starting point
+ * main - program starting point
  *
  * Return - zero if error free
  */
