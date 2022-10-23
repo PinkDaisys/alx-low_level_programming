@@ -3,12 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - program entry point
+ * main - print
  *
- * Return - zero if error free
+ * Return: zero if error free
+ *
  */
 
-int main()
+int main(void)
 {
 
 	int n;
