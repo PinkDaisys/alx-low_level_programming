@@ -7,7 +7,9 @@
  *
  * Return - zero if error free
  */
+
 	int main(void)
+
 {
 	int n;
 	int ldigit;
