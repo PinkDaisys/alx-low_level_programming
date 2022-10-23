@@ -8,7 +8,7 @@
  * Return - zero if error free
  */
 
-int main (void)
+int main()
 {
 
 	int n;
